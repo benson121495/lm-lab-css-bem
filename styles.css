@@ -4,4 +4,38 @@ img {
     max-width: 200px;
 }
 
-/* Happy coding! */
+:root {
+    --dark-colour : rgb(22, 22, 22);
+    --light-colour : rgb(238, 238, 238);
+}
+
+.card {
+    display: flex;
+    gap:1rem;
+    justify-content: center;
+}
+
+.card__container--dark {
+    background-color: var(--dark-colour);
+    color: var(--light-colour);
+    padding: 1rem;
+    border-radius: 0.3rem;
+    width:15rem;
+}
+
+.card__container--light {
+    background-color: var(--light-colour);
+    color: var(--dark-colour);
+    padding: 1rem;
+    border-radius: 0.3rem;
+    width:15rem;
+}
+
+.card__image {
+    display: block;
+    text-align: center;
+}
+
+.card__header {
+    text-align: center;
+}

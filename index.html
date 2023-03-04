@@ -11,19 +11,23 @@
 
 <body>
     <h1>BEM Wars</h1>
-    <div class="container">
-        <div>
-            <h2>The Dark Side</h2>
-            <img src="./images/vader.jpeg">
+    <div class="card">
+        <div class="card__container--dark">
+            <h2 class="card__header">The Dark Side</h2>
+            <picture class="card__image">
+                <img src="./images/vader.jpeg">
+            </picture>
             <p>Nesting!</p>
             <p>Conflict!</p>
             <p>Specificity Wars!</p>
             <p>Cookies</p>
         </div>
 
-        <div>
-            <h2>The Force</h2>
-            <img src="./images/yoda.jpeg">
+        <div class="card__container--light">
+            <h2 class="card__header">The Force</h2>
+            <picture class="card__image">
+                <img src="./images/yoda.jpeg">
+            </picture>
             <p>Love</p>
             <p>Beauty</p>
             <p>CSS that Scales!</p>
