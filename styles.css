@@ -39,3 +39,30 @@ img {
 .card__header {
     text-align: center;
 }
+
+.button {
+
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+.button:active {
+    
+    transform: translateY(4px);
+  }
+
+
+.button--dark{
+    background-color: Red ;
+    color: #fff;
+}
+
+.button--light{
+    background-color: lightseagreen;
+    color: #fff;
+    
+}
